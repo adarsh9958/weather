@@ -99,3 +99,11 @@ body{
     margin-top: 10px;
     display: none;
 }
+@media screen and (max-width: 50px) {
+  .card {
+    width: 90%;
+  }
+  .search {
+    width: 90%;
+  }
+}
