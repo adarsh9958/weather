@@ -99,11 +99,16 @@ body{
     margin-top: 10px;
     display: none;
 }
-@media screen and (max-width: 50px) {
+@media screen and (max-width: 500px) {
   .card {
+    margin: 25px auto 0;
     width: 90%;
   }
   .search {
-    width: 90%;
+    width: 100%;
+  }
+  .search input{
+    padding: 5px 8px;
   }
 }
+
